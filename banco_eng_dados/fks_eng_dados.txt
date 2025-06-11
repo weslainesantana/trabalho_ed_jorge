@@ -1,0 +1,31 @@
+ALTER TABLE endereco
+ADD CONSTRAINT fk_endereco_cliente
+FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente);
+
+ALTER TABLE livro
+ADD CONSTRAINT fk_livro_autor
+FOREIGN KEY (id_autor) REFERENCES autor(id_autor);
+
+ALTER TABLE livro
+ADD CONSTRAINT fk_livro_editora
+FOREIGN KEY (id_editora) REFERENCES editora(id_editora);
+
+ALTER TABLE pedido
+ADD CONSTRAINT fk_pedido_cliente
+FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente);
+
+ALTER TABLE item_pedido
+ADD CONSTRAINT fk_item_pedido_pedido
+FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido);
+
+ALTER TABLE item_pedido
+ADD CONSTRAINT fk_item_pedido_livro
+FOREIGN KEY (id_livro) REFERENCES livro(id_livro);
+
+ALTER TABLE estoque
+ADD CONSTRAINT fk_estoque_livro
+FOREIGN KEY (id_livro) REFERENCES livro(id_livro);
+
+ALTER TABLE pagamento
+ADD CONSTRAINT fk_pagamento_pedido
+FOREIGN KEY (id_pedido) REFERENCES pedido(id_pedido);
