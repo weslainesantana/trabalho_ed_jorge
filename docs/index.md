@@ -1,21 +1,29 @@
 ---
 hide:
   - navigation
-  #- toc # table of contents - menu da direita
 ---
 
-# Projeto Engenharia de Dados
+# Projeto de Engenharia de Dados
 
-Trabalho desenvolvido para a disciplina de Engenharia de dados do Curso de Engenharia da Software da UNISATC.
-A proposta do projeto e desenvolver uma pipeline de engenharia de dados...
+Este projeto foi desenvolvido para a disciplina de **Engenharia de Dados** do curso de **Engenharia de Software da UNISATC**.
 
-## Principais comandos do MkDocs
+A proposta contempla a construção de uma **pipeline de dados** com as seguintes etapas:
 
-* `mkdocs new [dir-name]` - Cria um novo projeto.
-* `mkdocs serve` - Inicia o preview das paginas *.md da pastas /docs.
-* `mkdocs build` - Cria a estrutura de paginas web no padrao hmtl, css, js.
-* `mkdocs gh-deploy` - Publica as paginas criadas pelo 'mkdocs build' na estrutura do github pages.
+- Coleta de dados de uma fonte relacional/não relacional.
+- Armazenamento em **Data Lake** com arquitetura **medalhão** (Landing, Bronze, Silver, Gold).
+- Transformação com **Apache Spark** (PySpark).
+- Persistência dos dados no formato **Delta Lake** ou **Apache Iceberg**.
+- Disponibilização em um modelo **dimensional ou OBT** para consumo via **dashboard** com KPIs e métricas.
 
-## Documentacao para referencia e estudo
-[https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html](https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html)  
-[https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
+## ⚙️ Principais Comandos do MkDocs
+
+- `mkdocs new [nome-da-pasta]` – Cria um novo projeto MkDocs.
+- `mkdocs serve` – Visualização local das páginas Markdown.
+- `mkdocs build` – Gera o site estático em HTML, CSS, JS.
+- `mkdocs gh-deploy` – Publica o site no GitHub Pages.
+
+## 📚 Referências
+
+- [Guia MkDocs Material](https://squidfunk.github.io/mkdocs-material/reference/)
+- [Markdown Avançado](https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html)
+- [Repositório base no GitHub](https://github.com/jlsilva01/projeto-ed-satc)
