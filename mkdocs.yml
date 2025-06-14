@@ -43,19 +43,7 @@ hide:
   - navigation
   - toc
 
-extra:
-  social:
-    - icon: fontawesome/brands/mastodon 
-      link: https://jl2tech.com
-  generator: false
-
-copyright: Copyright &copy; 2024 - <a href="#" target="_blank"><b>Jorge Luiz da Silva</b></a> - Todos os direitos reservados.
-
-extra_css:
-  - stylesheets/extra.css
-
-extra_javascript:
-  - javascripts/extra.js
+copyright: Copyright &copy; 2024 - <a href="#" target="_blank"><b> Grupo A </b></a> - Todos os direitos reservados.
 
 plugins:
   - search
