@@ -52,8 +52,6 @@
     
       <link rel="stylesheet" href="assets/_mkdocstrings.css">
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
-    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -78,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#projeto-engenharia-de-dados" class="md-skip">
+        <a href="#projeto-de-engenharia-de-dados" class="md-skip">
           Ir para o conteúdo
         </a>
       
@@ -339,16 +337,16 @@
         <li class="md-nav__item">
   <a href="#principais-comandos-do-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      Principais comandos do MkDocs
+      ⚙️ Principais Comandos do MkDocs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentacao-para-referencia-e-estudo" class="md-nav__link">
+  <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
-      Documentacao para referencia e estudo
+      📚 Referências
     </span>
   </a>
   
@@ -415,16 +413,16 @@
         <li class="md-nav__item">
   <a href="#principais-comandos-do-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
-      Principais comandos do MkDocs
+      ⚙️ Principais Comandos do MkDocs
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentacao-para-referencia-e-estudo" class="md-nav__link">
+  <a href="#referencias" class="md-nav__link">
     <span class="md-ellipsis">
-      Documentacao para referencia e estudo
+      📚 Referências
     </span>
   </a>
   
@@ -451,19 +449,29 @@
   
 
 
-<h1 id="projeto-engenharia-de-dados">Projeto Engenharia de Dados</h1>
-<p>Trabalho desenvolvido para a disciplina de Engenharia de dados do Curso de Engenharia da Software da UNISATC.
-A proposta do projeto e desenvolver uma pipeline de engenharia de dados...</p>
-<h2 id="principais-comandos-do-mkdocs">Principais comandos do MkDocs</h2>
+<h1 id="projeto-de-engenharia-de-dados">Projeto de Engenharia de Dados</h1>
+<p>Este projeto foi desenvolvido para a disciplina de <strong>Engenharia de Dados</strong> do curso de <strong>Engenharia de Software da UNISATC</strong>.</p>
+<p>A proposta contempla a construção de uma <strong>pipeline de dados</strong> com as seguintes etapas:</p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Cria um novo projeto.</li>
-<li><code>mkdocs serve</code> - Inicia o preview das paginas *.md da pastas /docs.</li>
-<li><code>mkdocs build</code> - Cria a estrutura de paginas web no padrao hmtl, css, js.</li>
-<li><code>mkdocs gh-deploy</code> - Publica as paginas criadas pelo 'mkdocs build' na estrutura do github pages.</li>
+<li>Coleta de dados de uma fonte relacional/não relacional.</li>
+<li>Armazenamento em <strong>Data Lake</strong> com arquitetura <strong>medalhão</strong> (Landing, Bronze, Silver, Gold).</li>
+<li>Transformação com <strong>Apache Spark</strong> (PySpark).</li>
+<li>Persistência dos dados no formato <strong>Delta Lake</strong> ou <strong>Apache Iceberg</strong>.</li>
+<li>Disponibilização em um modelo <strong>dimensional ou OBT</strong> para consumo via <strong>dashboard</strong> com KPIs e métricas.</li>
 </ul>
-<h2 id="documentacao-para-referencia-e-estudo">Documentacao para referencia e estudo</h2>
-<p><a href="https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html">https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html</a><br />
-<a href="https://squidfunk.github.io/mkdocs-material/reference/">https://squidfunk.github.io/mkdocs-material/reference/</a></p>
+<h2 id="principais-comandos-do-mkdocs">⚙️ Principais Comandos do MkDocs</h2>
+<ul>
+<li><code>mkdocs new [nome-da-pasta]</code> – Cria um novo projeto MkDocs.</li>
+<li><code>mkdocs serve</code> – Visualização local das páginas Markdown.</li>
+<li><code>mkdocs build</code> – Gera o site estático em HTML, CSS, JS.</li>
+<li><code>mkdocs gh-deploy</code> – Publica o site no GitHub Pages.</li>
+</ul>
+<h2 id="referencias">📚 Referências</h2>
+<ul>
+<li><a href="https://squidfunk.github.io/mkdocs-material/reference/">Guia MkDocs Material</a></li>
+<li><a href="https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html">Markdown Avançado</a></li>
+<li><a href="https://github.com/jlsilva01/projeto-ed-satc">Repositório base no GitHub</a></li>
+</ul>
 
 
 
@@ -530,25 +538,13 @@ A proposta do projeto e desenvolver uma pipeline de engenharia de dados...</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2024 - <a href="#" target="_blank"><b>Jorge Luiz da Silva</b></a> - Todos os direitos reservados.
+      Copyright &copy; 2024 - <a href="#" target="_blank"><b> Grupo A </b></a> - Todos os direitos reservados.
     </div>
   
   
-</div>
-      
-        <div class="md-social">
-  
-    
-    
-      
-    
-    
-    
-      
-      
-    
-    <a href="https://jl2tech.com" target="_blank" rel="noopener me" title="jl2tech.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.5 102.5 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5m-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
     </a>
   
 </div>
@@ -569,8 +565,6 @@ A proposta do projeto e desenvolver uma pipeline de engenharia de dados...</p>
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
-      
-        <script src="javascripts/extra.js"></script>
       
     
   </body>
