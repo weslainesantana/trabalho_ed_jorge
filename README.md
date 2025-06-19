@@ -108,3 +108,11 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](http
 Cite aqui todas as referências utilizadas neste projeto, pode ser outros repositórios, livros, artigos de internet etc.
 
 
+# Nossa documentação abaixo: 
+
+## Modelagem relacional:
+
+![image](https://github.com/user-attachments/assets/c3dcc0e9-2636-4585-9e45-8175eed89cc8)
+
+
+
